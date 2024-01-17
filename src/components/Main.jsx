@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { Text, View, StyleSheet } from "react-native";
 import List from "./List";
 import Header from "./Header";
+=======
+import React from "react";
+import {Text, View} from "react-native";
+import SQLite from 'react-native-sqlite-storage';
+>>>>>>> 13725919febacd98fd4d9333c6a6c993679e91cb
 
 const Main = () => {
   return (
