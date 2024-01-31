@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   text : {
-    color: "#ffffff"
+    color: "#ffffff",
   },
   // borderColor,
   // hoverColor,
