@@ -1,36 +1,14 @@
-import { Text, View, StyleSheet } from "react-native";
-import List from "./List";
-import Header from "./Header";
-import React from "react";
+import { Text, View } from 'react-native';
 
 const Main = () => {
   return (
-    <View style={styles.root}>
-      <Header />
-
-      <View style={styles.listContainer}>
-        <List title={"lista1"} />
-        <List title={"lista2"} />
-        <List title={"lista3"} />
-        <List title={"lista4"} />
-      </View>
+    <View>
+        <Text>1</Text>
+        <Text>2</Text>
+        <Text>3</Text>
+        <Text>4</Text>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  root: {
-    display: "flex",
-    alignItems: "center",
-    backgroundColor: "#1E1E2E",
-    width: "100%",
-  },
-
-  listContainer: {
-    display: "grid",
-    gridTemplateColumns: "repeat(2,50%)",
-    gap: 20
-  }
-})
 
 export default Main;
